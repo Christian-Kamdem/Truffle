@@ -1,7 +1,7 @@
-pragma solidity ^0.4.23;
+pragma solidity ^0.4.18;
 
-contract HelloWorld{
+contract HelloWorld {
 	function print () public pure returns (string){
-		return ('Hello world!');
+		return ("Hello world!");
 	}
 }
